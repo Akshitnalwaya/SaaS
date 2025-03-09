@@ -5,7 +5,6 @@ def main_page(request, *args, **kwargs):
     PageVists.objects.create()
     query = PageVists.objects.all()
     path = request.path # Get the path of the request
-    print("Pathing" + path)
   # Create a new object in the database with the path of the request and this 
     context = {
          "main": main,
