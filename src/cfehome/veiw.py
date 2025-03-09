@@ -20,4 +20,5 @@ def home(request,*args,**kwargs):
 #this is the basic function to render the html file
 #this is the basic function to render the html file
 def fun(request):
+    # return home(request)
     return HttpResponse("<h1>Fun in the heelo world page </h1>")
